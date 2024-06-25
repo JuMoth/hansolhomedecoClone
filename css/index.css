@@ -228,8 +228,9 @@ header .spot li:last-child a {
     display: block;
     width: 160px;
     height: 45px;
-    border: 1px solid #fff;
-    color: #fff;
+    /* border: 1px solid #fff; */
+    /* color: #fff; */
+    color: transparent;
     font-size: 16px;
     text-align: center;
     line-height: 45px;
@@ -359,4 +360,58 @@ header .spot li:last-child a {
 }
 .slide .control a {
     color: transparent;
+}
+
+/* popular */
+.popular {
+    text-align: center;
+    padding: 20px;
+}
+
+.popular h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.popular p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    width: 23%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+}
+
+.product-item h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.product-item p {
+    color: #999;
+}
+
+/* 마우스 오버 시 효과 */
+.product-item:hover {
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    transform: scale(1.02);
 }
